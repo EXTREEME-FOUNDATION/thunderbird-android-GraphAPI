@@ -58,3 +58,6 @@ merged-prs-*.csv
 
 # Weblate cache
 cli/weblate-cli/weblate-components-cache.json
+
+# Obscure custom Config
+app-thunderbird/src/beta/kotlin/net/thunderbird/android/auth/TbOAuthConfigurationFactory.kt

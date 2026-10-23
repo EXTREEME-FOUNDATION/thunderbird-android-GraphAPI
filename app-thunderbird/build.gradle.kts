@@ -113,8 +113,7 @@ android {
 
         create("beta") {
             initWith(getByName("release"))
-
-            signingConfig = signingConfigs.getByType(SigningType.TB_BETA)
+            signingConfig = signingConfigs.getByName("debug")
 
             applicationIdSuffix = ".beta"
             versionNameSuffix = "b0"
